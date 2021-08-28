@@ -35,11 +35,15 @@ const TableData = (props) => {
     <div className="dataTables">
       <Row align="middle" justify="center">
         <Col className="table" xs={24} sm={24} md={24} lg={10} xl={10}>
-          <TableTemplate header="PCR Data" columns={pcrTable} data={pcrData} />
+          <TableTemplate
+            header="PCR Test Data"
+            columns={pcrTable}
+            data={pcrData}
+          />
         </Col>
         <Col className="table" xs={24} sm={24} md={24} lg={10} xl={10}>
           <TableTemplate
-            header="Antigen Data"
+            header="Antigen Test Data"
             columns={antigenTable}
             data={antigenData}
           />

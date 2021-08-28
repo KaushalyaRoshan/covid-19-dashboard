@@ -6,6 +6,7 @@ import axios from "axios";
 
 import TopContainer from "./components/TopContainer";
 import TableData from "./components/TableData";
+import Footer from "./components/Footer";
 
 const apiUrl = "https://hpb.health.gov.lk/api/get-current-statistical";
 
@@ -37,6 +38,7 @@ function App() {
             pcrDataSource={data.daily_pcr_testing_data}
             antigenDataSource={data.daily_antigen_testing_data}
           />
+          <Footer />
         </div>
       )}
     </div>
