@@ -1,5 +1,5 @@
 import { Row, Col } from "antd";
-import "./TableData.css";
+import "./css/TableData.css";
 import TableTemplate from "./TableTemplate";
 
 const TableData = (props) => {

@@ -1,7 +1,7 @@
 import { Statistic } from "antd";
 import { LineChartOutlined } from "@ant-design/icons";
 import { Row, Col } from "antd";
-import "./TopCard.css";
+import "./css/TopCard.css";
 
 const TopCard = ({ title, value }) => {
   return (
